@@ -1,6 +1,6 @@
-Lawesii-clothing
+wibble-clothing
 =========================================
 
-Massive online-shop project in progress ...
+Massive online-shop project, currently in progress ...
 
 
