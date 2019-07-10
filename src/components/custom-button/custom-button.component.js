@@ -2,8 +2,10 @@ import React from 'react';
 
 import "./custom-button.styles.scss"
 
-const CustomButton = ({ children, ...otherProps }) => {
-    return <button className="custom-button" {...otherProps}>
+//Nested classes custom-button google-sign-in
+//you need otherProps for the passed onClick prop
+const CustomButton = ({ children, isGoogleSignIn, ...otherProps }) => {
+    return <button className={`${isGoogleSignIn ? "google-sign-in" : ""} custom-button`} {...otherProps}>
         {children}
     </button>
 };
