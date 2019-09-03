@@ -7,5 +7,5 @@ Built with
 =========================================
 
 React, React Router, Sass, Firebase.
-Currently trying to master Redux.
+Currently trying to master Redux
 
